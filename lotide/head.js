@@ -10,11 +10,10 @@ const assertEqual = function(actual, expected) {
 const head = function(theArray) {
   if (theArray === []) {
     return undefined;
-  }
-  else {
+  } else {
     return theArray[0];
   }
-}
+};
 
 // TEST CODE
 assertEqual("Lighthouse Labs", "Bootcamp");
