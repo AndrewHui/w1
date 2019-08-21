@@ -23,7 +23,7 @@ const assertArraysEqual = function (firArray, secArray, trueOrFalse) {
   return assertEqual(eqArrays(firArray, secArray), trueOrFalse);
 }
 // TEST CODE
-assertArraysEqual([1, 2, 3], [1, 2, 3], true);
+assertArraysEqual([1, 2, 3], [1, "2", 3], false);
 //assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
 //assertEqual(eqArrays(["1", "2", "3"], ["1", "2", 3]), false);
 //assertEqual(eqArrays([5, "2", 2], [5, "2", 2]), true);
