@@ -50,3 +50,4 @@ const letterPositions = function(sentence) {
 // TEST
 
 console.log(letterPositions("lighthouse in the house"));
+assertArraysEqual(letterPositions("hello").e, [1], true);
