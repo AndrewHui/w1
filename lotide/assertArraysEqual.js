@@ -8,7 +8,11 @@ const assertEqual = function(actual, expected) {
 };
 
 const eqArrays = function(firstArray, secondArray) {
-  for (let i = 0; i < 3; i++) {
+  let longerArray = firstArray.length;
+  if (secondArray.length > firstArray.length) {
+    longerArray = secondArray.length;
+  }
+  for (let i = 0; i < longerArray; i++) {
     if (firstArray[i] === secondArray[i]) {
 
     }
@@ -22,6 +26,7 @@ const eqArrays = function(firstArray, secondArray) {
 const assertArraysEqual = function (firArray, secArray, trueOrFalse) {
   return assertEqual(eqArrays(firArray, secArray), trueOrFalse);
 }
+
 // TEST CODE
 assertArraysEqual([1, 2, 3], [1, "2", 3], false);
 //assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
