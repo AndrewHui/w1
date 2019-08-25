@@ -15,7 +15,8 @@ const nameInverter = function(name) {
   let lastName = "";
   let hon = ["Mr.", "Dr.", "Mrs.", "Ms"];
   let honAns = ""
-  for (let par in splitName) { // for loop for the modification of first and last name
+
+  for (let par in splitName) { // NAME ASSIGNMENT LOGIC
 
     if (splitName[par] === "") { 
     }
@@ -30,7 +31,9 @@ const nameInverter = function(name) {
       firstName = splitName[par];
     }
   }
-  if (lastName) { // if there is a last name (return)
+
+
+  if (lastName) { // RETURN LOGIC
     return (honAns.concat(lastName) + ", " + firstName)
   }
   else if (firstName) {
