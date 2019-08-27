@@ -40,3 +40,4 @@ console.log(results1);
 assertArraysEqual(map(words, word => word[1]), ["r", "o", "o", "a", "o"], true);
 
 
+module.exports = map;

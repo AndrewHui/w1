@@ -59,3 +59,5 @@ const takeUntil = function(array, callback) {
 // assertArraysEqual(takeUntil(data2, x => x === ','), [ 'I\'ve', 'been', 'to', 'Hollywood' ], true);
 assertArraysEqual(takeUntil([1, 5, 7, 10, 15, 4], x => x > 9.9), [1, 5, 7, 10], true);
 console.log(takeUntil([1, 5, 7, 10, 15, 4], x => x > 9.9));
+
+module.exports = takeUntil;

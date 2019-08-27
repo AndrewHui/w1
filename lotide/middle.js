@@ -21,5 +21,3 @@ const middle = function(findMiddleArray) {
 }
 
 module.exports = middle;
-
-console.log((middle([1, 2, 3, 4])));

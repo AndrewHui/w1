@@ -29,4 +29,4 @@ const countLetters = function(theBombString) {
 
 // TEST
 
-console.log(countLetters("lighthouse in the house"));
+module.exports = countLetters;

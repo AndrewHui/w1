@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@andrewjhui/lotide",
+  "version": "1.0.2",
+  "description": "lotide functions created for learning",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -14,6 +14,6 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
+  "author": "andrewjhui",
   "license": "ISC"
 }
